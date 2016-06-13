@@ -39,37 +39,59 @@
 <!-- food -->                  
                   <div class="span4 rating_thumb"  >
                     <a href='restaurants/'>                                             
-                        <img src="img/thumb_service.jpg" class="img-circle">
-                        <h5><small>Рейтинг</small><br> Рестораны </h5>
-                        <span class=count><?=$site->countObjects("restaurants")?></span>                                              
+                        <div class=categoryCounterIndex>
+                            <img src="img/thumb_service.jpg" class="img-circle">
+                            <h5><small>Рейтинг</small><br> Рестораны </h5>
+                            <span class=count><?=$site->countObjects("restaurants")?></span> 
+                        </div>    
                     </a>                                        
                   </div>                                                  
                   <div class="span4 rating_thumb" >                    
-                    <a href='bars/'><img src="img/bar_thumb.jpg" class="img-circle">
-                    <h5><small>Рейтинг</small><br> Бары</h5>                                                                                
-                    <span class=count><?=$site->countObjects("bars")?></span></a>
+                    <a href='bars/'>
+                        <div class=categoryCounterIndex>
+                            <img src="img/bar_thumb.jpg" class="img-circle">
+                            <h5><small>Рейтинг</small><br> Бары</h5>                                                                                
+                            <span class=count><?=$site->countObjects("bars")?></span>
+                        </div>    
+                    </a>
                   </div>                  
                   <div class="span4 rating_thumb" >
-                    <a href='spa/'><img src="img/spa_thumb.jpg" class="img-circle">
-                    <h5><small>Рейтинг</small><br> SPA-cалоны</h5>
-                    <span class=count><?=$site->countObjects("spa")?></span></a>
+                    <a href='spa/'>
+                        <div class=categoryCounterIndex>
+                            <img src="img/spa_thumb.jpg" class="img-circle">
+                            <h5><small>Рейтинг</small><br> SPA-cалоны</h5>
+                            <span class=count><?=$site->countObjects("spa")?></span>
+                        </div>
+                      </a>
                   </div>
                 </div> 
                 <div class="row-fluid">
                   <div class="span4 rating_thumb" >
-                    <a href='fitness/'><img src="img/fitness11_thumb.jpg" class="img-circle">
-                    <h5><small>Рейтинг</small><br> Фитнес-центры</h5>
-                    <span class=count><?=$site->countObjects("fitness")?></span></a>
+                    <a href='fitness/'>
+                        <div class=categoryCounterIndex>    
+                            <img src="img/fitness11_thumb.jpg" class="img-circle">
+                            <h5><small>Рейтинг</small><br> Фитнес-центры</h5>
+                            <span class=count><?=$site->countObjects("fitness")?></span>
+                        </div>    
+                    </a>
                   </div>
                   <div class="span4 rating_thumb" >
-                    <a href='vuz/'><img src="img/vuz_thumb.jpg" class="img-circle">
-                    <h5><small>Рейтинг</small><br> ВУЗы</h5>
-                    <span class=count><?=$site->countObjects("vuz")?></span></a>
+                    <a href='vuz/'>
+                        <div class=categoryCounterIndex>
+                            <img src="img/vuz_thumb.jpg" class="img-circle">
+                            <h5><small>Рейтинг</small><br> ВУЗы</h5>
+                            <span class=count><?=$site->countObjects("vuz")?></span>
+                        </div>    
+                    </a>
                   </div>
                   <div class="span4 rating_thumb" >
-                    <a href='autosalon/'><img src="img/autosalon_thumb.jpg" class="img-circle">
-                    <h5><small>Рейтинг</small><br> Автосалоны</h5>
-                    <span class=count><?=$site->countObjects("autosalon")?></span></a>
+                    <a href='autosalon/'>
+                        <div class=categoryCounterIndex>
+                            <img src="img/autosalon_thumb.jpg" class="img-circle">
+                            <h5><small>Рейтинг</small><br> Автосалоны</h5>
+                            <span class=count><?=$site->countObjects("autosalon")?></span>
+                        </div>    
+                    </a>
                   </div>
                 </div>
               </div>
