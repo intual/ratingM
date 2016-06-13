@@ -1,6 +1,6 @@
 <?
 /*
-Формирует вывод страницы списка объектов
+Главная страница
 
 */
 
@@ -9,16 +9,12 @@
 <div class=container>
 <div class="row-fluid"><div class="span12"></div></div>
 
-<? //require 'map.php'; ?>
+
 <!-- конт сетка -->            
 <!-- subheader -->
        
             <div class="row-fluid subheader" style='border-bottom:0px'></div>
-            
-            
 
-            
-            
 <!-- add new object-->
             <div class="row-fluid" >                                                  
               <div class="span3 " >
@@ -38,9 +34,7 @@
               
               </div>
               <div class="span9 ratings_thumbs">
-<!-- ads -->  
-              <? //require 'ads/728x90_graph.php'; ?>
-              
+
                 <div class="row-fluid">
 <!-- food -->                  
                   <div class="span4 rating_thumb"  >
@@ -77,14 +71,7 @@
                     <h5><small>Рейтинг</small><br> Автосалоны</h5>
                     <span class=count><?=$site->countObjects("autosalon")?></span></a>
                   </div>
-                  
-                  
-                  <!--<div class="span4 rating_thumb" >
-                    <a href='gift/'><img src="img/R_thumb.jpg" class="img-circle"><h5><small>Подарочные</small><br> Сертификаты</h5></a>
-                  </div>-->                
                 </div>
-              
-                                                        
               </div>
             </div>
 
